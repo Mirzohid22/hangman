@@ -9,7 +9,7 @@ const figureParts = document.querySelectorAll('.figure-part');
 
 const words = ['programming', 'message', 'javascript','reactjs','bootstrap','github','internet','google','firework','facebook','zerotomastery'];
 
-let selectedWord = words[ Math.ceil(Math.random() * words.length)];
+let selectedWord = words[ Math.floor(Math.random() * words.length)-1];
 
 const correctLetters = [];
 const wrongLetters = [];
